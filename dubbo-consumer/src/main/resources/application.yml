@@ -1,0 +1,10 @@
+server:
+  port: 9201
+
+dubbo:
+  application:
+    name: dubbo-consumer
+  registry:
+    address: zookeeper://47.104.67.4:2181
+  protocol:
+      name: dubbo

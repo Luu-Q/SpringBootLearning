@@ -1,0 +1,13 @@
+server:
+  port: 9101
+
+dubbo:
+  application:
+    name: dubbo-server
+  registry:
+    address: zookeeper://47.104.67.4:2181
+  protocol:
+    name: dubbo
+    port: 20880
+  monitor:
+    protocol: registry
